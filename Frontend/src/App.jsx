@@ -1,4 +1,3 @@
-import "./App.css";
 import MovieCard from "./Components/forward";
 import TopNav from "./Components/TopNav";
 function App() {
