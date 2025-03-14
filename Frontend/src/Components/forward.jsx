@@ -48,7 +48,7 @@ const data = [
   },
 ];
 
-function MovieCard() {
+function EmployeeCard() {
   return (
     <>
       <TopNav /> {/* Add TopNav component */}
@@ -194,4 +194,4 @@ function MovieCard() {
   );
 }
 
-export default MovieCard;
+export default EmployeeCard;

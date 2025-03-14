@@ -1,8 +1,8 @@
-import MovieCard from "./Components/forward";
+import EmployeeCard from "./Components/forward";
 function App() {
   return (
     <div>
-      <MovieCard />
+      <EmployeeCard />
     </div>
   );
 }
