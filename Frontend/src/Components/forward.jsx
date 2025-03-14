@@ -46,6 +46,17 @@ const data = [
     company: "Big Data Co.",
     bio: "Turning data into meaningful insights.",
   },
+  {
+    name: "Emily Williams",
+    picture:
+      "data:image/jpeg;base64,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",
+    location: "Chicago, IL",
+    messages: 4,
+    views: 12,
+    occupation: "Data Scientist",
+    company: "Big Data Co.",
+    bio: "Turning data into meaningful insights.",
+  },
 ];
 
 function MovieCard() {
@@ -53,14 +64,13 @@ function MovieCard() {
     <>
       <TopNav /> {/* Add TopNav component */}
       <div
+        className="container"
         style={{
           paddingTop: "60px",
           paddingLeft: "20px",
           paddingRight: "20px",
         }}
       >
-        {" "}
-        {/* Add top, left, and right padding */}
         {data.map((person, index) => (
           <div
             key={index}
@@ -76,6 +86,7 @@ function MovieCard() {
               margin: "20px 0",
               maxWidth: "400px",
               width: "100%",
+              boxSizing: "border-box", // Ensure padding is included in the width
             }}
           >
             {/* Profile Section */}
@@ -164,9 +175,16 @@ function MovieCard() {
       </div>
       <style jsx>{`
         @media (max-width: 600px) {
+          .container {
+            padding-left: 10px;
+            padding-right: 10px;
+          }
           .message-card {
-            padding: 1px;
+            padding: 15px;
             margin: 10px 0;
+            width: 100%; // Ensure the card takes full width
+            max-width: 100%; // Ensure the card doesn't exceed the container width
+            box-sizing: border-box; // Include padding in the width calculation
           }
           .message-card img {
             width: 50px;
