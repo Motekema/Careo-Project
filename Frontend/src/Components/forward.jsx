@@ -16,7 +16,7 @@ const data = [
   {
     name: "Jane Smith",
     picture:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-SLaLEiL8oOd61iqYgDy3Gto7xwDerng38G2heUuY60jUZhrkfZ7NRi0&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSphHA3D7yXzMgnBAOC8s6gSbOpLWsaAC7tNI6InjKjIQsjyb_nDNLpcE4&s",
     location: "New York, NY",
     messages: 3,
     views: 10,
