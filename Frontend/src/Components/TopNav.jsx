@@ -39,7 +39,7 @@ function TopNav() {
             justifyContent: "center",
             width: "24px",
             height: "24px",
-            borderRadius: "50%",
+            borderRadius: "40%",
             border: "2px solid green",
             color: "green",
             fontSize: "14px",
@@ -52,28 +52,24 @@ function TopNav() {
       <button
         className="nav-button"
         style={{
-          backgroundColor: "#007bff", // Blue color
-          color: "white",
-          border: "none",
-          borderRadius: "5px",
-          padding: "8px 16px",
+          color: "black", // Change text color to black
+          backgroundColor: "transparent", // Remove background color
+          padding: "4px 12px",
           cursor: "pointer",
-          fontSize: "16px",
+          fontSize: "26px", // Increase font size
           fontWeight: "bold",
-          transition: "background-color 0.3s ease, transform 0.2s ease", // Smooth transitions
+          border: "none", // Remove border
         }}
         onMouseOver={(e) => {
-          e.target.style.backgroundColor = "#0056b3"; // Darker blue on hover
           e.target.style.transform = "scale(1.05)"; // Slightly enlarge on hover
         }}
         onMouseOut={(e) => {
-          e.target.style.backgroundColor = "#007bff"; // Original blue on mouse out
           e.target.style.transform = "scale(1)"; // Reset size
         }}
         onMouseDown={(e) => (e.target.style.transform = "scale(0.95)")} // Shrink on click
         onMouseUp={(e) => (e.target.style.transform = "scale(1.05)")} // Return to hover size
       >
-        +
+        <strong>+</strong>
       </button>
 
       {/* Responsive Styles */}
