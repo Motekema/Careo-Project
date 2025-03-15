@@ -72,7 +72,7 @@ function EmployeeCard() {
               display: "flex",
               flexDirection: "column",
               alignItems: "center",
-              margin: "20px 0",
+              margin: "10px 0",
               maxWidth: "400px",
               width: "100%",
               boxSizing: "border-box", // Ensure padding is included in the width
