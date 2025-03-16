@@ -115,16 +115,22 @@ function EmployeeCard() {
                     fontSize: "14px",
                   }}
                 >
-                  {person.location}
+                  📍 {person.location}
                 </p>
                 <p
                   style={{
                     margin: "0 0 5px 0",
-                    color: "#777",
+                    color: "#4a5568",
                     fontSize: "12px",
+                    fontWeight: "600",
                   }}
                 >
-                  {person.occupation} at {person.company}
+                  <span style={{ fontWeight: "600" }}>{person.occupation}</span>
+                  <span style={{ color: "#718096", fontWeight: "400" }}>
+                    {" "}
+                    at{" "}
+                  </span>
+                  <span style={{ fontWeight: "600" }}>{person.company}</span>
                 </p>
                 <p style={{ margin: "0", color: "#777", fontSize: "12px" }}>
                   {person.bio}
